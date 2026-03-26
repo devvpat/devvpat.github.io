@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 4rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5em;
+}
+
+.layout {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+}
+
+.sidebar {
+    flex: 0 0 25%;
+    padding-right: 1.5rem;
+}
+
+.divider {
+    flex: 0 0 1px;
+    background: #ccc;
+    align-self: stretch;
+}
+
+.content {
+    flex: 1;
+    padding-left: 1.5rem;
+}
